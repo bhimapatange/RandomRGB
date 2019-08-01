@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
         
          s.source       = { :git => "https://github.com/bhimapatange/RandomRGB.git", :tag =>"1.0.0" }
          
-       spec.exclude_files = 'RandomRGB/*.{h,m,swift}'
+       s.exclude_files = 'RandomRGB/*.{h,m,swift}'
           s.swift_version = "4.2" 
 
     end
