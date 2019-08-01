@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
          
           s.source_files  = 'RandomRGB/*.framework'
        s.source_files = [
-    'RandomRGB/RandomRGB.framework'
+    'RandomRGB.framework'
   ]
           s.swift_version = "4.2" 
 
