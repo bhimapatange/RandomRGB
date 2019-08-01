@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
           
           s.name               = "RandomRGB"
        
-          s.version            = "0.0.1"
+          s.version            = "1.0.0"
        
           s.summary         = "This is an demo of creating framework and publish it for use of anyone"
     
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
        
        
         
-         s.source       = { :path => '.' }
+         s.source       = { :git => "https://github.com/bhimapatange/RandomRGB.git", :tag =>"1.0.0" }
          
           s.source_files     = "RandomRGB"
     end
