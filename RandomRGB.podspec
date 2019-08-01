@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
    
           s.license              = "MIT"
          
+         s.platform     = :ios, "10.1"
+
           s.author               = "Bhima Patange"
        
        
