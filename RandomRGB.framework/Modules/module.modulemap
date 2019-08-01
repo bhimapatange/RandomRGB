@@ -1,0 +1,11 @@
+framework module RandomRGB {
+  umbrella header "RandomRGB.h"
+
+  export *
+  module * { export * }
+}
+
+module RandomRGB.Swift {
+    header "RandomRGB-Swift.h"
+    requires objc
+}
